@@ -10,5 +10,9 @@ var message ="Hello! Este ora" + hour + ":" + minutes
 // o variabila fara valoare (undefined)
 var city
 
-alert(message)
+// alert(message)
+console.log(message)
+
+document.write("<h1>" + message + "</h1>")
+
 
