@@ -5,7 +5,7 @@ var chosenNumber = Math.round( Math.random() * 100)
 function check() {
     // value reprezinta valoarea data in input
     let checkedNumber = document.querySelector("#number").value
-    if (chosenNumber == checkedNumber) {
+ if (chosenNumber == checkedNumber) {
         result.innerText = "Ai ghicit"}
       else if (chosenNumber > checkedNumber) {
     result.innerText ="Prea mic"
@@ -15,4 +15,5 @@ function check() {
 
     }
 
-
+}
+console.log(chosenNumber)
