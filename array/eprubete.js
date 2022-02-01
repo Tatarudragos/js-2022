@@ -27,3 +27,19 @@ document.write(fruits) + '<br>'
 //sterge 2 elemente incepand de la pozitia 1
 fruits.splice(1 ,2)
 document.write(fruits + '<br>')
+
+var words = ['hello', 'Java Script', 'Visual Studio' , 'if','object']
+
+var upperWords = []
+
+for (let word of words) { 
+   // o alta varianta word[0].toUpperCase() == word[0]
+    if(word[0]  >= 'A' && word[0] <= 'Z') {
+        upperWords.push(word)
+
+    }
+    
+}
+upperWords.sort()
+document.write(upperWords)
+
