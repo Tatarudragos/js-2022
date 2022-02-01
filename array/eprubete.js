@@ -17,11 +17,13 @@ document.write(scores +'<br>')
 
 var fruits =['orange' ,'banana', 'apple', 'wasabi']
 fruits[0] ='kiwi'
-//push adauga la sfarsitul array-ului
+//push adauga la sfarsitul array-ului -pop scoate de la sfarsit
 fruits.push('pear')
-// adauga la inceputul array-ului
+// adauga la inceputul array-ului -shift scoate de la inceput
 fruits.unshift('strawberry')
 
 fruits.sort()
 document.write(fruits) + '<br>'
-
+//sterge 2 elemente incepand de la pozitia 1
+fruits.splice(1 ,2)
+document.write(fruits + '<br>')
